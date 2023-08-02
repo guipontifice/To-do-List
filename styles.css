@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: rgb(25, 138, 123);
+    height: 1vh;
+}
+.container {
+    display: block;
+    margin: auto;
+}
+.todo-card {
+    background-color: rgba(209, 205, 205, 0.5);
+    filter: opacity(50);
+    opacity: 0,5;
+    /* border: 2px solid green; */
+    border-radius: 2.4rem;
+    margin: 100px auto 0;
+    height: 40rem;
+    width: 30rem;
+    background-image: url("/To-Do-List/img/background.png");
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.submit-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 35px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+.title-card{
+    margin: 0px 2px 0px 2px;
+}
+.add-button {
+    align-self: start;
+    width: 120px;
+    height: 100%;
+    margin: 0px 10px 0 0px;
+    border-radius: 2px;
+    border-color: rgb(163, 115, 12);
+    color:rgb(163, 115, 12);
+    background-color: rgb(6, 6, 27);
+    cursor: pointer;
+}
+.new-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem 1rem 1rem;
+    height: 30px;
+}
+ .item-text {
+    color: rgb(163, 115, 12);
+    font-weight: 600;
+} 
+img {
+    cursor: pointer;
+}
