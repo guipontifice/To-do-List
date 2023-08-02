@@ -1,5 +1,5 @@
-![Main Screen](/To-Do-List/img/main.png)
 
+<img src="./main.png"/>
 ## What is a todo list?
 
 A todo list is a list of tasks that you need to complete. It can be used to keep track of your tasks, prioritize them, and make sure that you don't forget anything.
